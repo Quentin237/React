@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: left;
+    color: black;
+  }
+  
+  .result {
+    margin-top: 20px;
+  }
+  
+  .options {
+    cursor: auto;
+    border: 100px solid black;
+    padding: 50px;
+  }
+  
+  .selected {
+    background: gray;
+    width: 100px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  

@@ -1,0 +1,24 @@
+{   
+    "ca": [   
+        {
+            "sector": "info",
+            "ca": 4000000
+        },
+        {
+            "sector": "automobile",
+            "ca": 2560850
+        },
+        {
+            "sector": "immobilier",
+            "ca": 3459090
+        },
+        {
+            "sector": "energie",
+            "ca": 16897350
+        },
+        {
+            "sector": "administratif",
+            "ca": 120459
+        }
+    ]
+}   
