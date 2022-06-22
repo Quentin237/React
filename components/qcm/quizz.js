@@ -12,7 +12,6 @@ class MainQuiz extends React.Component {
   };
 
   loadQuizData = () => {
-    // console.log(quizData[0].question)
     this.setState(() => {
       return {
         questions: quizData[this.state.currentQuestion].question,
@@ -26,7 +25,6 @@ class MainQuiz extends React.Component {
     this.loadQuizData();
   }
   nextQuestionHandler = () => {
-    // console.log('test')
     const { myValue, value, score } = this.state;
 
     if (myValue === value) {
@@ -53,7 +51,6 @@ class MainQuiz extends React.Component {
       });
     }
   }
-  //check value
   checkvalue = value => {
     this.setState({ myValue: value, disabled: false });
   };

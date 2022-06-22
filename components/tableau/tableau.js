@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-//import Box from '@mui/material/Box';
-//import { DataGrid } from '@mui/x-data-grid';
 const users = require('../tableau/users.json');
 
 export class Table extends Component {
@@ -31,44 +29,3 @@ export class Table extends Component {
 }
 
 export default Table
-
-
-
-
-
-/*
-const columns = [
-  { field: 'id', 
-    headerName: 'ID', 
-    width: 200 },
-  {
-    field: 'name',
-    headerName: 'Name',
-    width: 200,
-  },
-  {
-    field: 'phone',
-    headerName: 'Phone',
-    width: 200,
-  },
-  {
-    field: 'email',
-    headerName: 'Email',
-    width: 200,
-  },
-];
-
-export default function Table() {
-  return (
-    <Box sx={{ height: 500, width: '100%' }}>
-      <DataGrid
-        rows={users}
-        columns={columns}
-        pageSize={4}
-        rowsPerPageOptions={[3]}
-      />
-    </Box>
-  );
-}
-
-*/
